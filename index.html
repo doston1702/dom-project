@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/media.css" />
+    <link rel="stylesheet" href="./Fonts/stylesheet.css" />
+    <link rel="icon" href="./Images/apple-icon.png" />
+    <title>Macbook Pro</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1 class="main-text">Supercharged for pros.</h1>
+        <p class="info-text">
+          The most powerful MacBook Pro ever is here. With the blazing-fast M1
+          Pro or M1 Max chip — the first Apple silicon designed for pros — you
+          get groundbreaking performance and amazing battery life. Add to that a
+          stunning Liquid Retina XDR display, the best camera and audio ever in
+          a Mac notebook, and all the ports you need. The first notebook of its
+          kind, this MacBook Pro is a beast.
+        </p>
+        <div class="main-box">
+          <div class="image-box">
+            <img src="./Images/macbook-grey.png" class="product d-none" />
+            <img src="./Images/macbook-white.png" class="product" />
+          </div>
+          <div class="right-box">
+            <h2 class="product-name">Macbook Pro</h2>
+            <p class="product-color">White</p>
+            <h2 class="product-price"><span>$</span><span>1,999</span></h2>
+            <!-- Тут модальное окно начинается -->
+            <div class="buy-win not-active">
+              <p>Чтобы купить нажмите два раза</p>
+            </div>
+            <div class="modal-win not-active">
+              <div class="items">
+                <img src="./Images/cross.png" class="modal-cross" />
+                <h2 class="modal-text">Оставить заявку</h2>
+                <form>
+                  <input type="text" class="inp" placeholder="Name" required minlength="4"><br>
+                  <input type="text" class="inp" placeholder="Addres" required>
+                  <button class="modal-btn">Send</button>
+                </form>
+              </div>
+            </div>
+            <!-- А тут модальное окно заканчивается -->
+          </div>
+        </div>
+        <div class="choose-color">
+          <button class="color-btn blue-btn">White</button>
+          <button class="color-btn grey-btn">Space Grey</button>
+        </div>
+        <div class="memory-chooser">
+          <button id="btn-1" class="memory active-memory">
+            <p class="mem-info">512 GB SSD</p>
+          </button>
+          <button id="btn-2" class="memory">
+            <p class="mem-info">1 TB SSD</p>
+            <p class="mem-price"><span>+$</span><span>200</span></p>
+          </button>
+          <button id="btn-3" class="memory">
+            <p class="mem-info">2 TB SSD</p>
+            <p class="mem-price"><span>+$</span><span>600</span></p>
+          </button>
+          <button id="btn-4" class="memory">
+            <p class="mem-info">4 TB SSD</p>
+            <p class="mem-price"><span>+$</span><span>1,200</span></p>
+          </button>
+        </div>
+      </div>
+    </main>
+    <script src="./JS/script.js"></script>
+  </body>
+</html>

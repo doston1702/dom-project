@@ -1,0 +1,89 @@
+@media only screen and (max-width: 720px) {
+    .container {
+        padding: 35px 0 70px;
+    }
+    .main-box {
+        gap: 20px;
+    }
+    .main-text {
+        font-size: 40px;
+    }
+    .info-text {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .product-name {
+        font-size: 40px;
+    }
+    .product-color {
+        font-size: 21px;
+    }
+    .product-price {
+        font-size: 40px;
+    }
+    .choose-color {
+        margin-bottom: 30px;
+    }
+    .color-btn {
+        font-size: 16px;
+        width: 140px;
+    }
+    .memory {
+        width: 291px;
+        padding: 15px 18px;
+    }
+    .mem-info {
+        font-size: 16px;
+    }
+    .mem-price {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 580px) {
+    .main-box {
+        flex-direction: column;
+    }
+    .product-color {
+        margin-bottom: 25px;
+    }
+    .right-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-text {
+        line-height: 35px;
+    }
+    .buy-win {
+        bottom: -15px;
+        left: 50px;
+    }
+    .modal-win {
+        bottom: -300px;
+        right: 2px;
+        width: 310px;
+    }
+    .items {
+        padding: 30px;
+    }
+    .modal-text {
+        line-height: 30px;
+        font-size: 32px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .product {
+        width: 280px;
+    }
+    .color-btn {
+        width: 130px;
+    }
+    .memory {
+        width: 271px;
+    }
+    .modal-win {
+        bottom: -300px;
+        right: 4px;
+        width: 270px;
+    }
+}
